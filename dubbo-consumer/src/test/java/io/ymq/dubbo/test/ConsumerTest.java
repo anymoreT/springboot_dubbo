@@ -23,6 +23,6 @@ public class ConsumerTest {
 
     @Test
     public void sayHello(){
-        consumerDemoService.sayHello("Peng Lei");
+        consumerDemoService.sayHello("==============================Peng Lei");
     }
 }
