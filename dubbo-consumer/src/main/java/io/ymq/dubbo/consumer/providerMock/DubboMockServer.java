@@ -3,10 +3,6 @@ package io.ymq.dubbo.consumer.providerMock;
 import com.alibaba.dubbo.config.ServiceConfig;
 import com.alibaba.dubbo.rpc.service.GenericService;
 import com.google.common.collect.Maps;
-import com.tony.test.mock.auto.mapper.MockServiceMapper;
-import com.tony.test.mock.auto.mapper.ServiceMethedRuleMapper;
-import com.tony.test.mock.po.MockServiceExample;
-import com.tony.test.mock.po.ServiceMethedRuleExample;
 import org.I0Itec.zkclient.ZkClient;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.stereotype.Service;
@@ -40,37 +36,22 @@ public class DubboMockServer  {
 
 
 	private String getServiceStatus(int serviceId) {
-		return this.isexport(serviceId) ? RUNNING : STOP;
+		return "";
 	}
 
 
 
 
 	public synchronized String startService(int serviceId) {
-		// 重新加载服务配置
-		MockService mockService = selectMockService(serviceId);
-		List<ServiceMethedRule> methodRules = selectMethodRule(serviceId);
-		RegistryConfig registryConfig = selectRegistryConfig(mockService.getRegistryId());
-		ProtocolConfig protocolConfig = selectProtocolConfig(mockService.getProtocolId());
 
-		Assert.notNull(mockService, "服务id:" + serviceId + "不存在");
-		Assert.notNull(methodRules, "ServiceMethedRule:" + serviceId + "不存在");
-		Assert.notNull(registryConfig, "registryConfig:" + serviceId + "不存在");
-		Assert.notNull(protocolConfig, "protocolConfig:" + serviceId + "不存在");
-		assertConnect(registryConfig);
 		
 		
 		unexportService(serviceId); // 卸载服务
 		clearLocalCache(serviceId); // 清除本地缓存
 
-		// 构建服务通用mock对象
-		MockGenericService tmpMockservice = new MockGenericService(mockService, methodRules);
-		ServiceConfig<GenericService> service = dubboServiceConfig.fillDubboService(mockService, registryConfig,
-				protocolConfig);
 
-		service.export(); // 暴露及注册服务
 
-		updateLocalCache(serviceId, tmpMockservice, service);// 更新本地缓存
+
 
 		return getServiceStatus(serviceId);
 	}
@@ -84,23 +65,8 @@ public class DubboMockServer  {
 		}
 	}
 
-	@Override
-	public MockGenericService buildMockGenericService(int serviceId, Integer... ruleIds) {
-		MockService mockService = selectMockService(serviceId);
-		List<ServiceMethedRule> methodRules = null;
-		if (ruleIds == null || ruleIds.length < 1) {
-			methodRules = selectMethodRule(serviceId);
-		} else {
-			methodRules = selectMethodRule(serviceId, ruleIds);
-		}
-		return new MockGenericService(mockService, methodRules);
-	}
 
-	private List<ServiceMethedRule> selectMethodRule(int serviceId, Integer[] ruleIds) {
-		ServiceMethedRuleExample example = new ServiceMethedRuleExample();
-		example.or().andServiceIdEqualTo(serviceId).andIdIn(Arrays.asList(ruleIds));
-		return serviceMethedRuleMapper.selectByExample(example);
-	}
+
 
 	/**
 	 * 更新本地缓存
@@ -131,60 +97,5 @@ public class DubboMockServer  {
 		dubboServices.remove(serviceId);
 	}
 
-	private ProtocolConfig selectProtocolConfig(int protocolId) {
-		return protocolConfigMapper.selectByPrimaryKey(protocolId);
-	}
-
-	private RegistryConfig selectRegistryConfig(int registryId) {
-		return registryConfigMapper.selectByPrimaryKey(registryId);
-	}
-
-	private List<ServiceMethedRule> selectMethodRule(int serviceId) {
-		ServiceMethedRuleExample example = new ServiceMethedRuleExample();
-		example.or().andServiceIdEqualTo(serviceId);
-		return serviceMethedRuleMapper.selectByExample(example);
-	}
-
-	private MockService selectMockService(int serviceId) {
-		return mockServiceMapper.selectByPrimaryKey(serviceId);
-	}
-
-	@Override
-	public synchronized void start() {
-		try {
-			List<MockService> items = selectStartedService();
-			loopStartService(items);
-		} catch (Exception e) {
-			System.out.println(e.getMessage());
-		}
-	}
-
-	private List<MockService> selectStartedService() {
-		MockServiceExample example = new MockServiceExample();
-		example.or().andServiceStatusEqualTo(RUNNING);
-		List<MockService> items = mockServiceMapper.selectByExample(example);
-		Assert.notEmpty(items, "没有需要启动的服务");
-		return items;
-	}
-
-	private void loopStartService(List<MockService> items) {
-		for (int i = 0; i < items.size(); i++) {
-			try {
-				MockService ms = items.get(i);
-				startService(ms.getId());
-			} catch (Exception e) {
-				e.printStackTrace();
-			}
-		}
-	}
-
-	@Override
-	public synchronized void stop() {
-		Iterator<Integer> iterator = dubboServices.keySet().iterator();
-		for (; iterator.hasNext();) {
-			Integer key = iterator.next();
-			stopService(key);
-		}
-	}
 
 }

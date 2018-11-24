@@ -15,17 +15,10 @@ import org.springframework.test.context.junit4.SpringRunner;
  * @author yanpenglei
  * @create 2017-10-27 14:15
  **/
-@RunWith(SpringRunner.class)
-@SpringBootTest(classes = Startup.class)
-public class ConsumerTest {
 
-    @Autowired
-    private ConsumerDemoService consumerDemoService;
+public class DubboTest {
 
-    @Test
-    public void sayHello(){
-        consumerDemoService.sayHello("==============================Peng Lei");
-    }
+
 
     @Test
     public void testDubbo(){
