@@ -11,7 +11,40 @@
     <artifactId>dubbo-consumer</artifactId>
     <packaging>jar</packaging>
 
+    <properties>
+
+        <file_encoding>UTF-8</file_encoding>
+        <commons.dbcp2.version>2.1.1</commons.dbcp2.version>
+        <commons.fileupload.version>1.2.1</commons.fileupload.version>
+
+
+        <guava.version>15.0</guava.version>
+
+        <zookeeper_version>3.4.6</zookeeper_version>
+
+        <jedis_version>2.6.2</jedis_version>
+
+        <commons_io_version>2.4</commons_io_version>
+        <commons_lang_version>2.5</commons_lang_version>
+
+        <!--<javassist_version>3.16.1-GA</javassist_version>-->
+
+        <!--<zkclient.version>0.1</zkclient.version>-->
+
+
+    </properties>
+
     <dependencies>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>${guava.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-lang</groupId>
+            <artifactId>commons-lang</artifactId>
+            <version>${commons_lang_version}</version>
+        </dependency>
         <dependency>
             <groupId>io.ymq.example</groupId>
             <artifactId>dubbo-api</artifactId>
