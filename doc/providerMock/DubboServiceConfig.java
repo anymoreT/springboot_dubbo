@@ -43,7 +43,7 @@ public class DubboServiceConfig {
         protocol.setName("dubbo");
         protocol.setPort(8989);
 
-        RegistryConfig registry = createRegistry("127.0.0.1:2181", 50000);
+        RegistryConfig registry = createRegistry("127.0.0.1:2181", 500000);
       //  ServiceConfig<GenericService> service = new ServiceConfig<GenericService>();
         ServiceConfig<DubboImplement> service = new ServiceConfig<DubboImplement>();
 

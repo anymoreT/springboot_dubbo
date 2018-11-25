@@ -1,12 +1,1248 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a79ff98f-201c-41b7-821a-d03371c085c0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-consumer/src/main/java/io/ymq/providerMock/DubboInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubboMockServer/dubboMockServer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubboMockServer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubboMockServer/src/main/java/io/ymq/config/MockConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubboMockServer/src/main/java/io/ymq/config/MyDubboConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-api/src/main/java/io/ymq/dubbo/api/DemoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-api/src/main/java/io/ymq/dubbo/api/DemoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-api/target/classes/io/ymq/dubbo/api/DemoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-api/target/classes/io/ymq/dubbo/api/DemoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-consumer/src/main/java/io/ymq/dubbo/consumer/providerMock/DubboImplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc/providerMock/DubboImplement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-consumer/src/main/java/io/ymq/dubbo/consumer/providerMock/DubboInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc/providerMock/DubboInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-consumer/src/main/java/io/ymq/dubbo/consumer/providerMock/DubboMock.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc/providerMock/DubboMock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-consumer/src/main/java/io/ymq/dubbo/consumer/providerMock/DubboMockServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc/providerMock/DubboMockServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-consumer/src/main/java/io/ymq/dubbo/consumer/providerMock/DubboServiceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc/providerMock/DubboServiceConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-consumer/src/main/java/io/ymq/dubbo/consumer/providerMock/MockGenericService.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc/providerMock/MockGenericService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-consumer/src/main/java/io/ymq/dubbo/consumer/providerMock/MockService.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc/providerMock/MockService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-consumer/src/main/java/io/ymq/dubbo/consumer/providerMock/ProtocolConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc/providerMock/ProtocolConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-consumer/src/main/java/io/ymq/dubbo/consumer/providerMock/ProtocolConfigMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-consumer/src/main/java/io/ymq/dubbo/consumer/providerMock/RegistryConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc/providerMock/RegistryConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-consumer/src/main/java/io/ymq/dubbo/consumer/providerMock/RegistryConfigMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc/providerMock/RegistryConfigMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-consumer/src/main/java/io/ymq/dubbo/consumer/providerMock/ServiceMethedRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc/providerMock/ServiceMethedRule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-consumer/src/main/java/io/ymq/dubbo/consumer/service/ConsumerDemoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-consumer/src/main/java/io/ymq/dubbo/consumer/service/ConsumerDemoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-consumer/src/main/java/io/ymq/dubbo/consumer/web/DemoConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-consumer/src/main/java/io/ymq/dubbo/consumer/web/DemoConsumerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-consumer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-consumer/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-consumer/src/main/resources/dubbo/dubbo-consumer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-consumer/src/main/resources/dubbo/dubbo-consumer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-consumer/src/test/java/io/ymq/dubbo/test/ConsumerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-consumer/src/test/java/io/ymq/dubbo/test/ConsumerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-consumer/src/test/java/io/ymq/dubbo/test/DubboTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-consumer/src/test/java/io/ymq/dubbo/test/DubboTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-consumer/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-consumer/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-consumer/target/classes/dubbo/dubbo-consumer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-consumer/target/classes/dubbo/dubbo-consumer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-consumer/target/classes/io/ymq/dubbo/consumer/providerMock/DubboImplement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-consumer/target/classes/io/ymq/dubbo/consumer/providerMock/DubboInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-consumer/target/classes/io/ymq/dubbo/consumer/providerMock/DubboMock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-consumer/target/classes/io/ymq/dubbo/consumer/providerMock/DubboMockServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-consumer/target/classes/io/ymq/dubbo/consumer/providerMock/DubboServiceConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-consumer/target/classes/io/ymq/dubbo/consumer/providerMock/MockGenericService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-consumer/target/classes/io/ymq/dubbo/consumer/providerMock/MockService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-consumer/target/classes/io/ymq/dubbo/consumer/providerMock/ProtocolConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-consumer/target/classes/io/ymq/dubbo/consumer/providerMock/ProtocolConfigMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-consumer/target/classes/io/ymq/dubbo/consumer/providerMock/RegistryConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-consumer/target/classes/io/ymq/dubbo/consumer/providerMock/RegistryConfigMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-consumer/target/classes/io/ymq/dubbo/consumer/providerMock/ServiceMethedRule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-consumer/target/classes/io/ymq/dubbo/consumer/service/ConsumerDemoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-consumer/target/classes/io/ymq/dubbo/consumer/service/ConsumerDemoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-consumer/target/classes/io/ymq/dubbo/consumer/web/DemoConsumerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-consumer/target/classes/io/ymq/dubbo/consumer/web/DemoConsumerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-consumer/target/test-classes/io/ymq/dubbo/test/ConsumerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-consumer/target/test-classes/io/ymq/dubbo/test/ConsumerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-consumer/target/test-classes/io/ymq/dubbo/test/DubboTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-consumer/target/test-classes/io/ymq/dubbo/test/DubboTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/dubbo-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo-provider/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo-api/target/" />
+    <ignored path="$PROJECT_DIR$/dubboMockServer/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-2107302883">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.50" value="1" />
+          <entry key="project.open.time.56" value="1" />
+          <entry key="project.open.time.83" value="1" />
+          <entry key="project.opened" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="20" />
+          <entry key="java" value="95" />
+          <entry key="learn" value="1" />
+          <entry key="properties" value="18" />
+          <entry key="txt" value="2" />
+          <entry key="xml" value="25" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="20" />
+          <entry key="JAVA" value="95" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Properties" value="18" />
+          <entry key="XML" value="25" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="9" />
+          <entry key="java" value="641" />
+          <entry key="learn" value="3" />
+          <entry key="properties" value="18" />
+          <entry key="txt" value="40" />
+          <entry key="xml" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="641" />
+          <entry key="PLAIN_TEXT" value="52" />
+          <entry key="Properties" value="18" />
+          <entry key="XML" value="11" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo-consumer/src/main/java/io/ymq/dubbo/consumer/run/Startup.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#481#482#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo-consumer/src/main/java/io/ymq/providerMock/DubboInterface.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo-consumer/src/main/java/io/ymq/dubbo/consumer/web/DemoConsumerController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="e#614#615#0" expanded="true" />
+                <element signature="e#659#660#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo-api/src/main/java/io/ymq/dubbo/api/DemoService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="172">
+              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo-consumer/src/main/java/io/ymq/dubbo/consumer/service/ConsumerDemoService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/doc/redme.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo-consumer/src/main/resources/dubbo/dubbo-consumer.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="97" selection-start-line="11" selection-start-column="97" selection-end-line="11" selection-end-column="97" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo-consumer/src/main/resources/dubbo/dubbo.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="39">
+              <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo-consumer/src/test/java/io/ymq/dubbo/test/ConsumerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo-consumer/src/test/java/io/ymq/dubbo/test/DubboTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="148">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ProtocolConfigMapper</find>
+      <find>io.ymq.dubbo.api.DemoService</find>
+    </findStrings>
+    <dirStrings>
+      <dir>D:\huangyong\projects\SpringBootExamples-master\spring-boot-dubbo\dubbo-consumer\src\main\java\io\ymq\dubbo\consumer\providerMock</dir>
+      <dir>D:\huangyong\projects\SpringBootExamples-master\spring-boot-dubbo\dubbo-consumer</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/doc/redme.txt" />
+        <option value="$PROJECT_DIR$/dubbo-consumer/src/main/java/io/ymq/dubbo/consumer/providerMock/ProtocolConfig.java" />
+        <option value="$PROJECT_DIR$/dubbo-consumer/src/main/java/io/ymq/dubbo/consumer/providerMock/ServiceMethedRuleMapper.java" />
+        <option value="$PROJECT_DIR$/dubbo-consumer/src/main/java/io/ymq/dubbo/consumer/providerMock/RegistryConfigMapper.java" />
+        <option value="$PROJECT_DIR$/dubbo-consumer/src/main/java/io/ymq/dubbo/consumer/providerMock/ProtocolConfigMapper.java" />
+        <option value="$PROJECT_DIR$/dubbo-consumer/src/main/java/io/ymq/dubbo/consumer/providerMock/RegistryConfig.java" />
+        <option value="$PROJECT_DIR$/dubbo-consumer/src/main/java/io/ymq/dubbo/consumer/providerMock/ServiceMethedRule.java" />
+        <option value="$PROJECT_DIR$/dubbo-consumer/src/main/java/io/ymq/dubbo/consumer/providerMock/MockService.java" />
+        <option value="$PROJECT_DIR$/dubbo-consumer/src/main/java/io/ymq/dubbo/consumer/providerMock/DubboMock.java" />
+        <option value="$PROJECT_DIR$/dubbo-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-consumer/src/main/java/io/ymq/dubbo/consumer/providerMock/MockGenericService.java" />
+        <option value="$PROJECT_DIR$/doc/duubo.learn" />
+        <option value="$PROJECT_DIR$/dubbo-consumer/src/main/java/io/ymq/dubbo/consumer/providerMock/DubboImplemtn.java" />
+        <option value="$PROJECT_DIR$/dubbo-consumer/src/main/java/io/ymq/dubbo/consumer/providerMock/DubboImplement.java" />
+        <option value="$PROJECT_DIR$/dubbo-consumer/src/main/java/io/ymq/dubbo/consumer/providerMock/DubboInterface.java" />
+        <option value="$PROJECT_DIR$/dubbo-consumer/src/main/java/io/ymq/dubbo/consumer/providerMock/DubboMockServer.java" />
+        <option value="$PROJECT_DIR$/dubbo-consumer/src/main/java/io/ymq/dubbo/consumer/providerMock/DubboServiceConfig.java" />
+        <option value="$PROJECT_DIR$/dubboMockServer/src/main/java/io/ymq/providerMock/DubboMockServer.java" />
+        <option value="$PROJECT_DIR$/dubboMockServer/src/main/java/io/ymq/providerMock/RegistryConfig.java" />
+        <option value="$PROJECT_DIR$/dubboMockServer/src/main/java/resources/dubbo.properties" />
+        <option value="$PROJECT_DIR$/dubboMockServer/src/main/java/io/ymq/example/App.java" />
+        <option value="$PROJECT_DIR$/dubboMockServer/src/main/java/io/ymq/providerMock/DubboInterface.java" />
+        <option value="$PROJECT_DIR$/dubboMockServer/src/main/java/io/ymq/config/MockConfig.java" />
+        <option value="$PROJECT_DIR$/dubboMockServer/src/main/java/io/ymq/config/MyDubboConfig.java" />
+        <option value="$PROJECT_DIR$/dubboMockServer/src/main/java/io/ymq/providerMock/DubboServiceConfig.java" />
+        <option value="$PROJECT_DIR$/dubboMockServer/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-consumer/src/main/resources/dubbo/dubbo-consumer.xml" />
+        <option value="$PROJECT_DIR$/dubbo-api/src/main/java/io/ymq/dubbo/api/DemoService.java" />
+        <option value="$PROJECT_DIR$/dubbo-consumer/src/main/resources/dubbo.properties" />
+        <option value="$PROJECT_DIR$/dubbo-consumer/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/dubbo-consumer/src/test/java/io/ymq/dubbo/test/ConsumerTest.java" />
+        <option value="$PROJECT_DIR$/dubbo-consumer/src/test/java/io/ymq/dubbo/test/DubboTest.java" />
+        <option value="$PROJECT_DIR$/dubbo-consumer/src/main/java/io/ymq/providerMock/DubboInterface.java" />
+        <option value="$PROJECT_DIR$/dubbo-consumer/src/main/java/io/ymq/dubbo/consumer/web/DemoConsumerController.java" />
+        <option value="$PROJECT_DIR$/dubbo-consumer/src/main/java/io/ymq/dubbo/consumer/service/ConsumerDemoService.java" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="spring-boot-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-dubbo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-consumer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ymq" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ymq" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ymq" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="run" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ymq" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ymq" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ymq" type="462c0819:PsiDirectoryNode" />
+              <item name="providerMock" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubboMockServer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubboMockServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubboMockServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubboMockServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubboMockServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ymq" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubboMockServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ymq" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubboMockServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ymq" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubboMockServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ymq" type="462c0819:PsiDirectoryNode" />
+              <item name="providerMock" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubboMockServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-dubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubboMockServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
   <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543137390118" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="io.ymq.dubbo.test" />
+      <recent name="io.ymq.dubbo.consumer.providerMock" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\huangyong\projects\SpringBootExamples-master\spring-boot-dubbo\doc" />
+      <recent name="D:\huangyong\projects\SpringBootExamples-master\spring-boot-dubbo\dubbo-consumer\src\main\java\io\ymq" />
+      <recent name="D:\huangyong\projects\SpringBootExamples-master\spring-boot-dubbo\dubboMockServer\src\main\java" />
+      <recent name="D:\huangyong\projects\SpringBootExamples-master\spring-boot-dubbo\dubboMockServer\src\main\java\io\ymq\providerMock" />
+      <recent name="D:\huangyong\projects\SpringBootExamples-master\spring-boot-dubbo\dubboMockServer\src\main\java\io\ymq" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Startup (1)">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.ymq.example.App" />
+      <module name="dubboMockServer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.ymq.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Startup (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.ymq.dubbo.consumer.run.Startup" />
+      <module name="dubbo-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.ymq.dubbo.consumer.run.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Startup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.ymq.dubbo.provider.run.Startup" />
+      <module name="dubbo-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.ymq.dubbo.provider.run.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerTest.testDubbo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dubbo-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.ymq.dubbo.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.ymq.dubbo.test" />
+      <option name="MAIN_CLASS_NAME" value="io.ymq.dubbo.test.ConsumerTest" />
+      <option name="METHOD_NAME" value="testDubbo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DubboTest.testDubbo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dubbo-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.ymq.dubbo.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.ymq.dubbo.test" />
+      <option name="MAIN_CLASS_NAME" value="io.ymq.dubbo.test.DubboTest" />
+      <option name="METHOD_NAME" value="testDubbo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Startup" />
+      <item itemvalue="Application.Startup (1)" />
+      <item itemvalue="JUnit.ConsumerTest.testDubbo" />
+      <item itemvalue="JUnit.DubboTest.testDubbo" />
+      <item itemvalue="Application.App" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Startup (1)" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.DubboTest.testDubbo" />
+        <item itemvalue="JUnit.ConsumerTest.testDubbo" />
+        <item itemvalue="Application.Startup" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a79ff98f-201c-41b7-821a-d03371c085c0" name="Default Changelist" comment="" />
+      <created>1542816460260</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1542816460260</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="DubboTest_testDubbo - 2018.11.25 at 00h 12m 54s.xml">
+      <configuration name="DubboTest.testDubbo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DubboTest_testDubbo - 2018.11.25 at 00h 21m 14s.xml">
+      <configuration name="DubboTest.testDubbo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DubboTest_testDubbo - 2018.11.25 at 00h 22m 36s.xml">
+      <configuration name="DubboTest.testDubbo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DubboTest_testDubbo - 2018.11.25 at 11h 04m 22s.xml">
+      <configuration name="DubboTest.testDubbo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DubboTest_testDubbo - 2018.11.25 at 11h 42m 23s.xml">
+      <configuration name="DubboTest.testDubbo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DubboTest_testDubbo - 2018.11.25 at 11h 42m 51s.xml">
+      <configuration name="DubboTest.testDubbo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DubboTest_testDubbo - 2018.11.25 at 11h 44m 49s.xml">
+      <configuration name="DubboTest.testDubbo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DubboTest_testDubbo - 2018.11.25 at 11h 45m 01s.xml">
+      <configuration name="DubboTest.testDubbo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DubboTest_testDubbo - 2018.11.25 at 15h 28m 17s.xml">
+      <configuration name="DubboTest.testDubbo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DubboTest_testDubbo - 2018.11.25 at 15h 53m 13s.xml">
+      <configuration name="DubboTest.testDubbo" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39116204" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.42389524" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.4729951" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3289689" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dubbo-consumer/src/test/java/io/ymq/dubbo/test/ConsumerTest.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dubboMockServer/src/main/java/io/ymq/providerMock/DubboServiceConfig.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dubboMockServer/src/main/java/io/ymq/providerMock/DubboServiceConfig.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dubboMockServer/src/main/java/io/ymq/providerMock/DubboServiceConfig.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dubboMockServer/src/main/java/io/ymq/config/MyDubboConfig.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>new ServiceConfig&lt;&gt;()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>new ServiceConfig&lt;DubboImplement&gt;();</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>new ServiceConfig&lt;&gt;();</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>new ServiceConfig&lt;GenericService&gt;();</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>ServiceConfig&lt;DubboImplement&gt; service = new ServiceConfig&lt;DubboImplement&gt;()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/dubbo-consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="68" column="21" selection-start-line="52" selection-start-column="7" selection-end-line="68" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubboMockServer/src/main/java/io/ymq/providerMock/ServiceMethedRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubboMockServer/src/main/java/io/ymq/providerMock/DubboMock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-251">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubboMockServer/src/main/java/io/ymq/providerMock/DubboMockServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-631">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubboMockServer/src/main/java/io/ymq/providerMock/MockService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1125">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubboMockServer/src/main/java/io/ymq/providerMock/MockGenericService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.6/dubbo-2.5.6.jar!/com/alibaba/dubbo/config/AbstractInterfaceConfig.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="46" column="25" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.6/dubbo-2.5.6.jar!/com/alibaba/dubbo/config/RegistryConfig.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubboMockServer/src/main/java/io/ymq/providerMock/RegistryConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubboMockServer/src/main/java/io/ymq/providerMock/ProtocolConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.6/dubbo-2.5.6.jar!/com/alibaba/dubbo/config/annotation/Service.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-520">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.11.RELEASE/spring-beans-4.3.11.RELEASE.jar!/org/springframework/beans/factory/support/SimpleInstantiationStrategy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="111" selection-start-line="111" selection-end-line="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.11.RELEASE/spring-beans-4.3.11.RELEASE.jar!/org/springframework/beans/factory/support/ConstructorResolver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="472" selection-start-line="472" selection-end-line="472" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.11.RELEASE/spring-beans-4.3.11.RELEASE.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="311" selection-start-line="311" selection-end-line="311" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.11.RELEASE/spring-beans-4.3.11.RELEASE.jar!/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="132" column="25" selection-start-line="132" selection-start-column="25" selection-end-line="132" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-consumer/src/main/java/io/ymq/dubbo/consumer/config/PropertiesConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-consumer/src/main/java/io/ymq/dubbo/consumer/providerMock/DubboMockServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="47" column="8" lean-forward="true" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-provider/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubboMockServer/src/main/java/resources/dubbo/dubbo.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-83" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubboMockServer/src/main/java/resources/dubbo/dubbo-provider.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-provider/src/main/resources/dubbo.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubboMockServer/src/main/java/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubboMockServer/src/main/java/resources/dubbo.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubboMockServer/src/main/java/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.11.RELEASE/spring-core-4.3.11.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="121" selection-start-line="121" selection-end-line="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.6/dubbo-2.5.6.jar!/com/alibaba/dubbo/config/ServiceConfig.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="688" selection-start-line="688" selection-end-line="688" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubboMockServer/src/main/java/io/ymq/example/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubboMockServer/src/main/java/io/ymq/config/MyDubboConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="45" column="61" selection-start-line="45" selection-start-column="61" selection-end-line="45" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubboMockServer/src/main/java/io/ymq/config/MockConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubboMockServer/src/main/java/io/ymq/providerMock/DubboServiceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="98" column="26" selection-start-line="93" selection-start-column="9" selection-end-line="107" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubboMockServer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="67" column="21" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubboMockServer/src/main/java/io/ymq/providerMock/DubboImplement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-consumer/src/main/resources/dubbo.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubboMockServer/src/main/java/io/ymq/providerMock/DubboInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="27" selection-start-column="15" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-consumer/src/main/java/io/ymq/providerMock/DubboServiceConfig.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-consumer/src/main/java/io/ymq/providerMock/DubboImplement.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-consumer/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-consumer/src/main/java/io/ymq/dubbo/consumer/providerMock/DubboInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/providerMock/DubboMock.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-consumer/src/main/java/io/ymq/dubbo/consumer/providerMock/DubboServiceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="59" column="29" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2204#2220#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-consumer/src/main/java/io/ymq/dubbo/consumer/run/Startup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-consumer/src/test/java/io/ymq/dubbo/test/ConsumerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-consumer/src/test/java/io/ymq/dubbo/test/DubboTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-consumer/src/main/resources/dubbo/dubbo-consumer.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="97" selection-start-line="11" selection-start-column="97" selection-end-line="11" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-consumer/src/main/resources/dubbo/dubbo.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-consumer/src/main/java/io/ymq/providerMock/DubboInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-api/src/main/java/io/ymq/dubbo/api/DemoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-consumer/src/main/java/io/ymq/dubbo/consumer/web/DemoConsumerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#614#615#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-consumer/src/main/java/io/ymq/dubbo/consumer/service/ConsumerDemoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/redme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

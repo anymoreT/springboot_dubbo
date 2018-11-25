@@ -1,6 +1,6 @@
 package io.ymq.dubbo.test;
 
-import io.ymq.dubbo.consumer.providerMock.DubboServiceConfig;
+
 import io.ymq.dubbo.consumer.run.Startup;
 import io.ymq.dubbo.consumer.service.ConsumerDemoService;
 import org.junit.Test;
@@ -27,8 +27,5 @@ public class ConsumerTest {
         consumerDemoService.sayHello("==============================Peng Lei");
     }
 
-    @Test
-    public void testDubbo(){
-        DubboServiceConfig.regiterDubboServeice();
-    }
+
 }

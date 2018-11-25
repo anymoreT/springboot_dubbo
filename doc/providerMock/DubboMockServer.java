@@ -27,11 +27,11 @@ public class DubboMockServer  {
 
 	private DubboServiceConfig dubboServiceConfig = new DubboServiceConfig();
 
-	@Resource
-	ProtocolConfigMapper protocolConfigMapper;
+//	@Resource
+//	ProtocolConfigMapper protocolConfigMapper;
 
-	@Resource
-	RegistryConfigMapper registryConfigMapper;
+//	@Resource
+//	RegistryConfigMapper registryConfigMapper;
 
 
 
