@@ -11,7 +11,8 @@
     <dubbo:application name="${spring.application.name}"  />
 
     <!-- 使用multicast广播注册中心暴露服务地址 -->
-    <dubbo:registry protocol="zookeeper" address="${zookeeper.connect}"  file="${dubbo.cache}"/>
+<!--    <dubbo:registry protocol="zookeeper" address="${zookeeper.connect}"  file="${dubbo.cache}"/>-->
+    <dubbo:registry address="multicast://224.5.6.7:1234" />
 
     <!-- 用dubbo协议在20880端口暴露服务 -->
     <dubbo:protocol name="dubbo" port="${dubbo.protocol.port}"  threadpool="${dubbo.protocol.threadpool}"  threads="${dubbo.protocol.threads}"/>

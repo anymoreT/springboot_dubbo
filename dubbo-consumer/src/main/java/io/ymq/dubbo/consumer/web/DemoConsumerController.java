@@ -9,7 +9,8 @@ package io.ymq.dubbo.consumer.web;
 import com.alibaba.dubbo.config.annotation.Reference;
 
 
-import io.ymq.providerMock.DubboInterface;
+import io.ymq.dubbo.api.DemoService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -19,11 +20,11 @@ import javax.annotation.Resource;
 @RestController
 public class DemoConsumerController {
 
-    @Resource
-    private DubboInterface demoService;
+    @Autowired
+    DemoService demoService;
 
     @RequestMapping("/sayHello")
     public String sayHello(@RequestParam String name) {
-        return demoService.sayHello();
+        return demoService.sayHello(name);
     }
 }

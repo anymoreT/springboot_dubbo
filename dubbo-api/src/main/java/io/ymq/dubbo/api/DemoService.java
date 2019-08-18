@@ -9,6 +9,6 @@ package io.ymq.dubbo.api;
 public interface DemoService {
 	
     String sayHello(String name);
-    String sayHello();
+//    String sayHello();
 }
 

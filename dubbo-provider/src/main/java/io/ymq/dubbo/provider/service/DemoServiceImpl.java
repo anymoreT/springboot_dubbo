@@ -21,9 +21,9 @@ public class DemoServiceImpl implements DemoService {
         System.out.println("[" + new SimpleDateFormat("HH:mm:ss").format(new Date()) + "] Hello " + name + ", request from consumer: " + RpcContext.getContext().getRemoteAddress());
         return "Hello " + name + ", response form provider: " + RpcContext.getContext().getLocalAddress();
     }
-    public String sayHello() {
-
-        return "123Hello "  + ", response form provider: " + RpcContext.getContext().getLocalAddress();
-    }
+//    public String sayHello() {
+//
+//        return "123Hello "  + ", response form provider: " + RpcContext.getContext().getLocalAddress();
+//    }
     
 }
